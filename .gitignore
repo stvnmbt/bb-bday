@@ -1,13 +1,12 @@
 # Dev artifacts — not part of the published site
-prototypes/
-photos/
-PLAN.md
-frontpage.txt
-movies.txt
-posters-log.txt
-copy-assets.ps1
-get-posters.ps1
-*.ps1
-
-# Original audio files (site uses assets/audio/)
-*.mp3
+# Leading "/" anchors each pattern to the repo root only,
+# so assets/photos and assets/audio are NOT ignored.
+/prototypes/
+/photos/
+/PLAN.md
+/frontpage.txt
+/movies.txt
+/posters-log.txt
+/posters-log2.txt
+/*.ps1
+/*.mp3
