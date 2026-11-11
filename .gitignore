@@ -1,12 +1,2 @@
-# Dev artifacts — not part of the published site
-# Leading "/" anchors each pattern to the repo root only,
-# so assets/photos and assets/audio are NOT ignored.
-/prototypes/
-/photos/
-/PLAN.md
-/frontpage.txt
-/movies.txt
-/posters-log.txt
-/posters-log2.txt
-/*.ps1
-/*.mp3
+# Local dev archive — not part of the published site
+/archive/
