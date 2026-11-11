@@ -1,0 +1,13 @@
+# Dev artifacts — not part of the published site
+prototypes/
+photos/
+PLAN.md
+frontpage.txt
+movies.txt
+posters-log.txt
+copy-assets.ps1
+get-posters.ps1
+*.ps1
+
+# Original audio files (site uses assets/audio/)
+*.mp3
